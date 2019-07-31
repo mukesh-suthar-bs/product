@@ -1,0 +1,27 @@
+
+.contain {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+
+}
+.content{
+  margin-top: 20px;
+  border: 2px solid black;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.box{
+  border: 2px solid black;
+}
